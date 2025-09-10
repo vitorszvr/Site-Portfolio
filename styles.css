@@ -41,7 +41,7 @@ body {
 
 .titulo-nome {
    font-family: "Bitcount Single", system-ui;
-   font-size: 80px;
+   font-size: clamp(50px, 10vw, 80px);
    color: #dc143c;
   font-optical-sizing: auto;
   font-weight: 600;
