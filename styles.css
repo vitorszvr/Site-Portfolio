@@ -1,0 +1,62 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu {
+    background-color: #dc143c;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.titulo-nome {
+   font-family: "Bitcount Single", system-ui;
+   font-size: 80px;
+   color: #dc143c;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -8,
+    "CRSV" 1,
+    "ELSH" 0,
+    "ELXP" 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.texto-padrao {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gif-linux {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
